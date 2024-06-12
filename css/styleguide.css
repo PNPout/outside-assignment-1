@@ -1,0 +1,71 @@
+.guide-wrapper {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+.style-colors {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-inner);
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.color__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 2rem 0;
+}
+.color__rectangle {
+  width: 20rem;
+  height: 20rem;
+}
+
+.color-space .color__rectangle {
+  background-color: var(--color-space);
+}
+
+.color-teal .color__rectangle {
+  background-color: var(--color-teal);
+}
+
+.color-sky .color__rectangle {
+  background-color: var(--color-sky);
+}
+
+.color-mint .color__rectangle {
+  background-color: var(--color-mint);
+}
+.color-peach .color__rectangle {
+  background-color: var(--color-peach);
+}
+.color-blush .color__rectangle {
+  background-color: var(--color-blush);
+}
+
+.style-typography {
+    display: flex;
+    flex-wrap: wrap;
+}
+.typo-left,
+.typo-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 0;
+  flex: 1 1 40rem;
+}
+
+.typo_details {
+  padding: 0.5em 0;
+}
+
+.style__title {
+  padding: 4rem;
+  color: white;
+  background: #004e60;
+  margin: 2em 0;
+}

@@ -198,11 +198,7 @@ button:hover,
   gap: var(--spacing-inner);
   flex: 1;
 }
-.about__text {
-  font-family: var(--font-arial);
-  font-size: 2.4rem;
-  line-height: 2.76rem;
-}
+
 .about__image-section {
   display: flex;
   flex-direction: column;
@@ -301,10 +297,7 @@ button:hover,
     gap: 15rem;
     padding: 12rem 8rem;
   }
-  .about__text {
-    font-size: 3.5rem;
-    line-height: 4.025rem;
-  }
+
 }
 
 /* style for desktop large XXL */

@@ -65,7 +65,7 @@
 
 .style__title {
   padding: 4rem;
-  color: white;
-  background: #004e60;
+  color: var(--color-white);
+  background: var(--color-teal);
   margin: 2em 0;
 }

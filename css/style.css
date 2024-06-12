@@ -34,10 +34,12 @@ html {
   border: none;
   background: transparent;
 }
+
 img {
   width: 100%;
   height: auto;
 }
+
 body {
   margin: auto;
   min-height: 100vh;
@@ -55,13 +57,19 @@ a {
   color: var(--color-teal);
 }
 
+b, strong {
+  font-weight: 700;
+}
+
 /* headings typography */
 
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: var(--font-arial);
+  font-weight: inherit;
 }
 
 h1 {
@@ -241,13 +249,6 @@ button:hover,
     line-height: 2.7rem;
   }
 
-  h1,
-  h2,
-  h3,
-  h4 {
-    font-family: var(--font-arial);
-  }
-
   h1 {
     font-size: 5.5rem;
     line-height: 6.324rem;
@@ -297,7 +298,6 @@ button:hover,
     gap: 15rem;
     padding: 12rem 8rem;
   }
-
 }
 
 /* end */

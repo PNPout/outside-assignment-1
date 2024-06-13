@@ -54,7 +54,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--color-teal);
+  color: red;
 }
 
 b, strong {
@@ -195,11 +195,12 @@ button:hover,
   flex-direction: column;
   padding: 2.4rem;
   gap: var(--spacing-inner);
-  align-items: center;
+  align-items: start;
   max-width: 144rem; /* temporary soultion for max-width, considering section might have background color in future */
   margin: 0 auto;
   align-items: flex-start;
 }
+
 .about__content {
   display: flex;
   flex-direction: column;

@@ -20,7 +20,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 *,
@@ -158,7 +158,7 @@ button:hover,
 }
 
 .button__border:hover svg path {
-  stroke: #114e60;
+  stroke: var(--color-teal);
 }
 
 .button__border--light {
@@ -195,11 +195,12 @@ button:hover,
   flex-direction: column;
   padding: 2.4rem;
   gap: var(--spacing-inner);
-  align-items: center;
+  align-items: start;
   max-width: 144rem; /* temporary soultion for max-width, considering section might have background color in future */
   margin: 0 auto;
   align-items: flex-start;
 }
+
 .about__content {
   display: flex;
   flex-direction: column;
